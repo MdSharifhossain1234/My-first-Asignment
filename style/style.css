@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+}
+
+.banner-img {
+    }
+
+.banner-paragraph {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #151414;
+
+
+
+
+
+}
