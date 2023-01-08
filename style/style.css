@@ -1,9 +1,12 @@
-.header {
+/* header section */
+.header { 
     display: flex;
+   
 }
 
-.banner-img {
-    }
+.banner-img {}
+
+
 
 .banner-paragraph {
     font-family: sans-serif;
@@ -13,8 +16,69 @@
     line-height: 76px;
     text-align: right;
     color: #151414;
+    background-image: url(../images/banner/banner2.png);
 
 
+
+
+
+
+}
+
+/* footer section */
+.footer-section {
+    background-color: #151414;
+    height: 30%;
+    display: flex;
+    margin: 50px;
+    padding: 150px;
+}
+
+
+.future-section {
+
+    margin-right: 20px;
+
+
+}
+
+.tittle {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    line-height: 26px;
+
+
+}
+
+.sub-tittle {
+    
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    text-justify: auto;
+
+
+}
+
+.subscribe {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 250px;
+    margin-bottom: 150px;
+
+
+}
+
+h2 {
+    color: chartreuse;
+}
+
+.btn {
+
+    color: #FFFFFF;
+    background-color: orange;
+    font-size: 25px;
 
 
 
