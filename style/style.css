@@ -4,26 +4,38 @@
    
 }
 
-.banner-img {}
-
-
-
-.banner-paragraph {
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 76px;
-    text-align: right;
-    color: #151414;
-    background-image: url(../images/banner/banner2.png);
 
 
 
 
 
+   /* failue section */
 
-}
+
+   .failure-section{
+
+    display: flex;
+   
+
+
+   }
+
+   .failure-tittle{
+
+        margin: 30px 40px 50px 40px;
+
+    }
+
+    .failure-list{
+        margin: 30px;
+    }
+
+
+
+
+
+
+
 
 /* footer section */
 .footer-section {
@@ -46,7 +58,8 @@
     font-size: 45px;
     font-weight: 700;
     color: #F8F8F8;
-    line-height: 26px;
+  
+
 
 
 }
