@@ -1,7 +1,100 @@
 /* header section */
-.header { 
+
+
+
+
+
+
+
+/* failue section */
+
+
+.failure-section {
+    margin-top: 130px;
+    margin-bottom: 220px;
+}
+
+.failure-container {
     display: flex;
-   
+
+
+
+}
+
+.failure-tittle {
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 250px;
+
+
+
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: darkcyan;
+    padding: 20px;
+    border: 10px;
+    
+}
+
+.failure-list {
+    margin: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 250px;
+
+}
+
+
+
+/* picture-section */
+
+.picture-section {
+    background-image: url(../images/watch.png );
+
+
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2222.26px;
+    margin-left: 350px;
+    margin-top: 20px;
+
+}
+
+.grad {
+    background-image: linear-gradient(to left, yellow, red);
+}
+
+.picture-description {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    padding: 50px;
+
+}
+
+.call-me {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    width: 160px;
+    height: 64px;
+    left: 294px;
+    top: 2399.26px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-bottom: 350px;
+
+    padding: 10px;
 }
 
 
@@ -9,60 +102,64 @@
 
 
 
-   /* failue section */
+/* my plan */
+
+.my-plan {
+    margin-top: 230px;
+    margin-right: 200px;
 
 
-   .failure-section{
+
+
+
+}
+
+.container {
 
     display: flex;
-   
-
-
-   }
-
-   .failure-tittle{
-
-        margin: 30px 40px 50px 40px;
-
-    }
-
-    .failure-list{
-        margin: 30px;
-    }
-
-
-    /* my plan */
-
-    .my-plan{
-        margin-top: 230px;
-        margin-right: 200px;
-
-        
+    justify-content: space-between;
+    gap: 5px;
 
 
 
-    }
+}
 
-    .container{
+.about-tittle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    text-decoration: underline;
 
-        display: flex;
-        justify-content: space-between;
-        gap: 5px;
-        
-
-
-    }
-
-    .about-tittle{
-        font-size: medium;
-      
+}
 
 
-    }
 
-    .plan{
-        font-weight: 400px;
-    }
+
+
+
+
+.plan {
+    font-weight: 400px;
+    margin-left: 200px;
+}
+
+
+.plan-tittle {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+
+
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
 
 
 
@@ -92,14 +189,14 @@
     font-size: 45px;
     font-weight: 700;
     color: #F8F8F8;
-  
+
 
 
 
 }
 
 .sub-tittle {
-    
+
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
